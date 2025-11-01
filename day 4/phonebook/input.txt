@@ -1,0 +1,3 @@
+qasam,chak 11,3456
+jama,chak 12,3457
+bilal,chack 21,909090

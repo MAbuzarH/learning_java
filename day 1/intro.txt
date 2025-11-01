@@ -1,0 +1,66 @@
+history
+1968 www was created (DARP)
+1970 first 5 node was established 
+1974 TCP by vint cerf
+http original web communication protocol
+->request responce model
+client (browser)
+server
+http:
+statless:
+does not maintain any connection information between transition information
+feature:
+negoseation of data representation allowing system to build independently of the data being transferred.
+TCP/IP:
+transmition control protocol over internet protocol
+Ip ensures that data packets reach the destination from the source of communication
+not  necessarily data packets follow the same path
+TCP keeps tracks of these packets and manages the assembling of these packets to form the original message thus both TCP and IP work together to ensure that active transmission of data over the internet.
+divide programe into layers eg data layer all the code which interact with database is stored in this layer
+tears: how many server do you deploied your website 
+thin client model: all processing is done on server client is there only to display data.
+fat client model: client also do some processing
+3tr moder: client -> server(Aplication process)->server(data menegement) 
+sons micro systems  
+fist name was ock then java  
+java execution:
+java code -> intermadeate state (java byte code)"this run on java virtual matchine" -> matchene code 
+public static void main(string args[]){}
+void main is a function public means that we can access it outside the class static means we need not to create an object first and then call function we directly call it and functionis used inside the class. args is an array of argument provided at start of program
+primitve data types pass by value and objects pass by refrence
+
+creation 1991
+made by: jams   Gasling
+j2SE ->core java
+J2EE ->enterprixe edition 
+J2ME -> micro edition
+
+distrctur (Grabage collector -handle memory automatically);
+no tamplate
+haeder/maker file 
+all classes by default inherated from a common ansistor known as  Object
+Almost all data types are objects
+helps us to develop front end of our application 
+servlets
+jsp jsf Applets
+RMI remote method invocatin 
+JVM (java virtual matchine) verifier  
+why it is better : platform independent language
+how to run program:
+first.java -> compiler -> first.class -> interprater(jvm) ->execution
+-multithreading : multipal program run at same time 
+-multitasking:multipal aplication run at same time 
+-memory management : garbage collector
+-automatic memory management 
+-secure
+-robust (means run in any situation)
+in java there are 2 thing error and exceptions
+Errors: faulare of harddisk, power supply shutdown 
+Exception : 2 types:
+checked exceptions: 
+-must be caught or decleared in throws clause
+-compiler will issue an error if not handel it properly
+unchecked exceptions:
+-Subclasses of runtimeExecption and errors 
+-do not required exception handling 
+eg Null exception, divide with 0 exception
