@@ -1,0 +1,15 @@
+Topic name:Collection Framwork
+Collections is a class but collection is an interface
+in Collections we have some readymate function that we use eg Collections.sort(Collection);eg arraylist sorting
+collection interface has:
+(Contaniers
+Algorithmes
+Cursors (iterator))
+collection consist of these Interfaces(List,Set,Queus);
+the above given Interfaces have some classes
+Topic name:Cursors
+Types(Enumration,iterator,ListIterator);
+Enumration:interface in java 
+only avaliable for legsy classes(vector,stack)
+ListIterator it is a bidirectional cursor 
+it is child of iterator 

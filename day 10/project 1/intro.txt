@@ -1,0 +1,20 @@
+Apllet life cycle
+init and distroy call only once each
+init() 
+init runs when fist time aplet load  s we do all our initilazition in in it.
+
+start()
+called whenever applet is maximize 
+
+paint()
+is called for the firstime when the applet become visiable and when aplet needs to repaint
+
+stop()
+called whenever applet is minimized 
+
+distory ()
+call when we exit from applet
+
+
+another important concept
+double bufering

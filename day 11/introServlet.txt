@@ -1,0 +1,24 @@
+Servlet life cycle
+1:initilization
+init();
+load resources
+-Executed once when servlit is loaded for first time
+-not call for each client request
+-put initilization code here
+
+2:Service
+acepts requests
+-when request comes checks its type
+-run for every client 
+-if request is GET it run doGet();
+-if request is POST it runs doPost();
+
+3:distroy
+destroy(); calls once 
+call take place when
+-Application is stoped 
+-Servlet container shutdown
+allow resources to free 
+
+summary:
+creation -> Initilization  -> Service ->destroy

@@ -1,0 +1,2 @@
+WELCOME TO THE MULTI-CLIENT CHAT SERVER!
+Type 'bye' to exit.

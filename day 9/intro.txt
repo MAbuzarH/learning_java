@@ -1,0 +1,17 @@
+to connect java with data base we use drivers 
+JDBC use to connect java with  DB
+types of JDBC
+Type 1: JDBC-ODBC Bridge driver 
+old written in C 
+Type 2: Native API Partly java diver 
+API provided by DB vendores like MYSQL,ORACAl,IBM etc
+Type 3: Network protocol pure java  driver
+Writen in java
+it use an intermidatry layer between client and Data base  and this layer is called middelware  it converts native api calls to database calls  
+Type 4: thin driver (also known as direct to data base pure java Driver)
+JDBC Components
+in addition to JDBC drivers there are some other components that make up JDBC API
+=>Driver Manager class
+=>Connection interface
+=>statment and preparedStatment interface 
+=>result set interface
